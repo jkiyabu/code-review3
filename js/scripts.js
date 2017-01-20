@@ -8,6 +8,8 @@ function countUp(input){
   for (var index = 0; index < input; index++) {
     if (parseInt(newlist[index]) % 3 === 0) {
       newlist[index] = "ping";
+    }else if (parseInt(newlist[index]) % 5 === 0) {
+      newlist[index] = "pong";
     }else{
       newlist[index] = newlist[index];
     }
