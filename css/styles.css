@@ -1,0 +1,61 @@
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #efe5b3;
+  padding: 100px;
+  margin: 0px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#aboutpingPong {
+  float: left;
+  margin-top: 10px;
+  margin-right: 40px;
+  padding-bottom: 50px;
+  padding-right: 35px;
+  padding-left: 20px;
+  background-color: #7cb684;
+}
+
+.abouttitle {
+  font-weight: bold;
+  color: #efe5b3;
+  font-size: 18px;
+}
+
+.aboutname {
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+}
+
+.abouturl {
+  font-weight: bold;
+  color: #5373c6;
+  font-size: 14px;
+}
+
+#aboutheader {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: darkgray;
+}
+
+#result {
+
+}
