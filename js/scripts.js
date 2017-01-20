@@ -3,10 +3,16 @@ function countUp(input){
 
   var newlist = [];
   for (var list = 1; list <= input; list++) {
-      newlist.push(parseInt(list));
+    newlist.push(parseInt(list));
+  }
+  for (var index = 0; index < input; index++) {
+    if (parseInt(newlist[index]) % 3 === 0) {
+      newlist[index] = "ping";
+    }else{
+      newlist[index] = newlist[index];
+    }
   }
   return newlist;
-
 }
 
 //user-interface
