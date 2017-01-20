@@ -1,22 +1,22 @@
 //business
 function countUp(input){
-
-  var newlist = [];
+  var newList = [];
   for (var list = 1; list <= input; list++) {
-    newlist.push(parseInt(list));
+    newList.push(parseInt(list));
   }
   for (var index = 0; index < input; index++) {
-    if (parseInt(newlist[index]) % 3 === 0 && parseInt(newlist[index]) % 5 != 0) {
-      newlist[index] = "ping";
-    }else if (parseInt(newlist[index]) % 5 === 0 && parseInt(newlist[index]) % 3 != 0) {
-      newlist[index] = "pong";
-    }else if (parseInt(newlist[index]) % 3 === 0 && parseInt(newlist[index]) % 5 === 0) {
-      newlist[index] = "pingpong";
+    if (parseInt(newList[index]) % 3 === 0 && parseInt(newList[index]) % 5 != 0) {
+      newList[index] = "ping";
+    }else if (parseInt(newList[index]) % 5 === 0 && parseInt(newList[index]) % 3 != 0) {
+      newList[index] = "pong";
+    }else if (parseInt(newList[index]) % 3 === 0 && parseInt(newList[index]) % 5 === 0) {
+      newList[index] = "pingpong";
     }else{
-      newlist[index] = newlist[index];
+      newList[index] = newList[index];
     }
   }
-  return newlist;
+  var finalList = newList.join('\n');
+  return finalList;
 }
 
 //user-interface
@@ -24,8 +24,6 @@ $(document).ready(function() {
   $("form#pingPong").submit(function() {
     event.preventDefault();
     var input = $("#number").val();
-    console.log(countUp(input));
     $("#result").text(countUp(input));
-    console.log();
   });
 });

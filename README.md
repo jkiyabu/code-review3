@@ -15,7 +15,7 @@ _This application will count up to the user's input number, replacing numbers di
 
 ## Known Bugs
 
-_No known bugs_
+_Attempted to output array as a list instead of a line but was unsuccessful_
 
 ## Application Specs
 * _The program counts up the the input number from user_
