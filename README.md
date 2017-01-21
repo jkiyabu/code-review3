@@ -30,6 +30,11 @@ _Attempted to output array as a list instead of a line but was unsuccessful_
 * _The program replaces numbers divisible by 3 and 5 with "pingpong"._
   * **Example Input:** 17
   * **Example Output:** [1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong,16,17]
+* _The program will display output as a list"._
+  * **Example Input:** 3
+  * **Example Output:** 1
+                        2
+                        ping
 
 ## Technologies Used
 
