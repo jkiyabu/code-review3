@@ -23,18 +23,13 @@ _Attempted to output array as a list instead of a line but was unsuccessful_
   * **Example Output:** [1,2]
 * _The program replaces numbers divisible by 3 with "ping"_
   * **Example Input:** 5
-  * **Example Output:** [1,2,ping,4,5]
+  * **Example Output:** [1,2,ping]
 * _The program replaces numbers divisible by 5 with "pong"_
   * **Example Input:** 6
   * **Example Output:** [1,2,ping,4,pong]
 * _The program replaces numbers divisible by 3 and 5 with "pingpong"._
   * **Example Input:** 17
   * **Example Output:** [1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong,16,17]
-* _The program will display output as a list"._
-  * **Example Input:** 3
-  * **Example Output:** 1
-                        2
-                        ping
 
 ## Technologies Used
 
